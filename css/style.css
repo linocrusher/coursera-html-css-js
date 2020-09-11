@@ -1,9 +1,48 @@
 body {
-  font-family: "Calibri";
+  /*font-family: "Calibri";*/
+  /*text-align: center;*/
+  background-color: #808080;
+}
+
+/*.nav #header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}*/
+
+h1 {
+  margin-top: 50px;
+}
+
+.navbar-brand h1 {
+  color: #FFF;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list a {
   text-align: center;
 }
 
+#nav-list a:hover {
+  background-color: #808080;
+}
+
 .container {
+  color: #FFFFFF;
+}
+
+.padding {
+  background-color: #343A40;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+/*.container {
   background-color: #F0F0F0;
   width: 28%;
   text-align: left;
@@ -39,21 +78,18 @@ body {
 
 .yellow {
   background-color: #FFFF00;
-}
+}*/
 
-@media (max-width: 767px) {
-  .container {
-    width: 93%;
-    clear: both;
-  }
+@media (max-width: 576px) {
+
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  .container {
+/*  .container {
     width: 44%;
   }
   .tablet {
     width: 94%;
     clear: both;
-  }
+  }*/
 }
